@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	word-spacing: 0px;
+}
+body{	
+	background-color:#FFF;
+	background-image:url(../files/webSiteFiles/myOwnPattern.jpg);
+	background-size:400px;
+	background-position:center;
+	background-attachment:fixed;
+}
+.contetn { width:1200px;
+}
+#mainTable{
+	width:inherit;	
+}
+#photos{
+	width:inherit;		
+}
+#photos img{width:100%;	
+}
+nav{
+	margin-left:9%;
+	position:relative;
+	height:80px;
+	width:83%;
+}
+nav img{
+	width:20%;
+}
+.mobi{
+	margin-left:13%;
+	position:relative;
+	height:80px;
+	width:83%;
+}
+#mini{
+	margin-top:15%; margin-bottom:5%;
+}
+.miniStar{position:relative;
+		z-index:3;
+		color:white;
+		margin-left:37%;
+}
+.mobi img{width:38%}
+.mobi span{color:white; position:relative; margin-left:5%; margin-right:5%;}
+#star{
+	color:white; position:relative; margin-left:2%; margin-right:1%;
+}
+#buttons{
+	position:relative;
+	z-index:2;
+	margin-bottom:-24%;
+	padding-left:40%;
+	top:-150px;
+}
+#sharebutton{
+	margin-left:5%;
+}
+#td{
+	display:inline-block;
+	width:33.333%;
+	height:33.333%;
+	background-color:#2d2d2d;
+	box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,1);
+	overflow:hidden;
+}
+
+#societies{
+	margin-top:10%;
+}
+
